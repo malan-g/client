@@ -1,10 +1,10 @@
 export const career = [
   {
-    date: "2022-06-24T15:30:00Z",
+    date: "2023-06-24T15:30:00Z",
     title: "Web Developer",
     company: "Theia Design and Marketing Solutions",
     description:
-      "I was hired to develop several multi-page websites and content management systems. I was provided design files & responsible for developing products from start to finish",
+      "I was hired as a full-time developer to work on multi-page websites and content management systems for numerous local businesses. I was primarily responsible for taking a design and turning it into a product. I also spent some time working on e-commerce solutions.",
     AccordionItems: [
       {
         key: "item-1",
