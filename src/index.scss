@@ -66,13 +66,14 @@
   }
 }
 
-main {
+body {
   padding: 0 5px;
-}
-
-.container {
   max-width: 800px;
   margin: 0 auto;
+}
+
+main {
+  padding: 0 5px;
 }
 
 @layer base {
