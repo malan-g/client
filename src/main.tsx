@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Root, Home, About, Projects, Project } from "./routes";
+import { projectsLoader } from "./routes/Projects";
 import ErrorPage from "./error-page";
 import "./index.scss";
 
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />,
+        loader: projectsLoader,
       },
       {
         path: "/projects/:project",
